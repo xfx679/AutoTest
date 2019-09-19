@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4062" started-at="2019-09-19T11:39:41 CST" finished-at="2019-09-19T11:39:45 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4062" started-at="2019-09-19T11:39:41 CST" finished-at="2019-09-19T11:39:45 CST">
+      <class name="com.test.testng.TimeOutTest">
+        <test-method status="FAIL" signature="testFailed()[pri:0, instance:com.test.testng.TimeOutTest@56235b8e]" name="testFailed" duration-ms="2016" started-at="2019-09-19T11:39:41 CST" finished-at="2019-09-19T11:39:43 CST">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.test.testng.TimeOutTest.testFailed() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.test.testng.TimeOutTest.testFailed() didn't finish within the time-out 2000
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:64)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:41)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailed -->
+        <test-method status="PASS" signature="testSuccess()[pri:0, instance:com.test.testng.TimeOutTest@56235b8e]" name="testSuccess" duration-ms="2002" started-at="2019-09-19T11:39:43 CST" finished-at="2019-09-19T11:39:45 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- com.test.testng.TimeOutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
