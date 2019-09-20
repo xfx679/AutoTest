@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4062" started-at="2019-09-19T11:39:41 CST" finished-at="2019-09-19T11:39:45 CST">
+  <suite name="Default suite" duration-ms="63" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4062" started-at="2019-09-19T11:39:41 CST" finished-at="2019-09-19T11:39:45 CST">
-      <class name="com.test.testng.TimeOutTest">
-        <test-method status="FAIL" signature="testFailed()[pri:0, instance:com.test.testng.TimeOutTest@56235b8e]" name="testFailed" duration-ms="2016" started-at="2019-09-19T11:39:41 CST" finished-at="2019-09-19T11:39:43 CST">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method com.test.testng.TimeOutTest.testFailed() didn't finish within the time-out 2000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.test.testng.TimeOutTest.testFailed() didn't finish within the time-out 2000
-at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:64)
-at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:41)
-at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+    <test name="Default test" duration-ms="63" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+      <class name="com.test.testng.TestCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFailed -->
-        <test-method status="PASS" signature="testSuccess()[pri:0, instance:com.test.testng.TimeOutTest@56235b8e]" name="testSuccess" duration-ms="2002" started-at="2019-09-19T11:39:43 CST" finished-at="2019-09-19T11:39:45 CST">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccess -->
-      </class> <!-- com.test.testng.TimeOutTest -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="beforMethod" is-config="true" duration-ms="0" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="testCase1" duration-ms="13" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="testCase2" duration-ms="1" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="beforMethod" is-config="true" duration-ms="0" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.testng.TestCase@3e9b1010]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-09-20T15:18:29 CST" finished-at="2019-09-20T15:18:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.testng.TestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
