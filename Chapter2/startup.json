@@ -2,9 +2,12 @@
   {
     "description": "这是我们的第一个mock例子",
     "request": {
-      "uri": "/demo"
+      "uri": "/demo",
     },
     "response": {
+      "headers": {
+        "Content-Type": "application/json; charset=GBK"
+      },
       "text": "第一个moco框架demo"
     }
   }
