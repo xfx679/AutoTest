@@ -1,4 +1,4 @@
-package com.course.httpclient.cookies;
+package com.course.httpclent.httpclient.cookies;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
@@ -14,7 +14,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.ResourceBundle;
 

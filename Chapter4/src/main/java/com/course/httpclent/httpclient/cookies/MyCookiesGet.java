@@ -1,4 +1,4 @@
-package com.course.httpclient.cookies;
+package com.course.httpclent.httpclient.cookies;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
