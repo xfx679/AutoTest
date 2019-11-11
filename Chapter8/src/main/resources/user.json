@@ -1,0 +1,120 @@
+[
+  {
+    "description": "登录接口，成功后返回cookie信息",
+    "request": {
+      "uri": "/v1/login",
+      "method": "post",
+      "json": {
+        "username": "zhangsan",
+        "password": "123456"
+      },
+      "headers": {
+        "Content-Type": "application/json;charset=GBK"
+      }
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "True"
+    }
+  },
+  {
+    "description": "获取用户信息接口",
+    "request": {
+      "uri": "/v1/getUserInfo",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json;charset=GBK"
+      },
+      "json": {
+        "userId": 1
+      },
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "json": {
+        "id": 1,
+        "username": "zhangsan",
+        "password": "123456",
+        "age": 20,
+        "sex": 1,
+        "permission": 1,
+        "isDelete": 0
+      }
+    }
+  },
+  {
+    "description": "获取用户列表信息",
+    "request": {
+      "uri": "/v1/getUserList",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "sex": 1
+      },
+      "headers": {
+        "Content-Type": "application/json;charset=GBK"
+      }
+    },
+    "response": {
+      "json": [
+        {
+          "id": 1,
+          "username": "zhangsan",
+          "password": "123456",
+          "age": 20,
+          "sex": 1,
+          "permission": 1,
+          "isDelete": 0
+        },
+        {
+          "id": 3,
+          "username": "lisi",
+          "password": "123456",
+          "age": 24,
+          "sex": 1,
+          "permission": 1,
+          "isDelete": 0
+        },
+        {
+          "id": 5,
+          "username": "xiaoxiao",
+          "password": "123456",
+          "age": 20,
+          "sex": 1,
+          "permission": 1,
+          "isDelete": 0
+        }
+      ]
+    }
+  },
+  {
+    "description": "增加用户接口",
+    "request": {
+      "uri": "/v1/addUserInfo",
+      "method": "post",
+      "headers": {
+        "content-Type": "application/json;charset=GBK"
+      },
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+          "username": "zhao9",
+          "password": "123456",
+          "sex": 0,
+          "age": 23,
+          "permission": 1,
+          "isDelete": 0
+      }
+    },
+    "response": {
+      "text": "True"
+    }
+  }
+]

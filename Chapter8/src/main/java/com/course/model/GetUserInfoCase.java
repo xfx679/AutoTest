@@ -1,4 +1,12 @@
 package com.course.model;
 
-public class getuserinfocase {
+import lombok.Data;
+
+@Data
+public class GetUserInfoCase {
+
+    private Integer id;
+    private Integer userId;
+    private String expected;
+
 }
