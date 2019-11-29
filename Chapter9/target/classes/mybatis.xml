@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <typeAliases>
+        <package name = "com.course.controller"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="mapper/mysql.xml"/>
+    </mappers>
+</configuration>
